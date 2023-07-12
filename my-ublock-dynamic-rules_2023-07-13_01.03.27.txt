@@ -1,0 +1,16 @@
+no-cosmetic-filtering: * true
+no-csp-reports: * true
+no-large-media: * true
+no-remote-fonts: * true
+behind-the-scene * * noop
+behind-the-scene * 1p-script noop
+behind-the-scene * 3p noop
+behind-the-scene * 3p-frame noop
+behind-the-scene * 3p-script noop
+behind-the-scene * image noop
+behind-the-scene * inline-script noop
+no-cosmetic-filtering: 54383125-0b0f-41da-80a9-9e89dd21360b.moz-extension-scheme false
+no-large-media: 54383125-0b0f-41da-80a9-9e89dd21360b.moz-extension-scheme false
+no-remote-fonts: 54383125-0b0f-41da-80a9-9e89dd21360b.moz-extension-scheme false
+no-large-media: behind-the-scene false
+no-strict-blocking: googleads.g.doubleclick.net true
